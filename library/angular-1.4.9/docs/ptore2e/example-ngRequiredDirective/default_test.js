@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-ngRequiredDirective/index.html");
+    browser.get("build/docs/examples/example-ngRequiredDirective/ratingList.html");
   });
   
 var required = element(by.binding('form.input.$error.required'));

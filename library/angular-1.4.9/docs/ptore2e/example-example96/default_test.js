@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example96/index.html");
+    browser.get("build/docs/examples/example-example96/ratingList.html");
   });
   
 it('should load template defined inside script tag', function() {

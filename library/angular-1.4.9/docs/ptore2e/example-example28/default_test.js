@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example28/index.html");
+    browser.get("build/docs/examples/example-example28/ratingList.html");
   });
   
 it('should freeze binding after its value has stabilized', function() {

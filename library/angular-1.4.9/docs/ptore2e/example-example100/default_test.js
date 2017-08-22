@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example100/index.html");
+    browser.get("build/docs/examples/example-example100/ratingList.html");
   });
   
  it('should format numbers', function() {

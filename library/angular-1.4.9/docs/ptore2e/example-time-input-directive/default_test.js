@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-time-input-directive/index.html");
+    browser.get("build/docs/examples/example-time-input-directive/ratingList.html");
   });
   
 var value = element(by.binding('example.value | date: "HH:mm:ss"'));

@@ -1,5 +1,5 @@
 var addressBar = element(by.css("#addressBar")),
-     url = 'http://www.example.com/base/index.html#!/path?a=b#h';
+     url = 'http://www.example.com/base/ratingList.html#!/path?a=b#h';
 
 it("should show fake browser info on load", function(){
   expect(addressBar.getAttribute('value')).toBe(url);
@@ -18,7 +18,7 @@ it("should change $location accordingly", function(){
 
   navigation.get(0).click();
 
-  expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/index.html#!/first?a=b");
+  expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/ratingList.html#!/first?a=b");
 
   expect(element(by.binding('$location.protocol()')).getText()).toBe('http');
   expect(element(by.binding('$location.host()')).getText()).toBe('www.example.com');
@@ -30,7 +30,7 @@ it("should change $location accordingly", function(){
 
   navigation.get(1).click();
 
-  expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/index.html#!/sec/ond?flag#hash");
+  expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/ratingList.html#!/sec/ond?flag#hash");
 
   expect(element(by.binding('$location.protocol()')).getText()).toBe('http');
   expect(element(by.binding('$location.host()')).getText()).toBe('www.example.com');

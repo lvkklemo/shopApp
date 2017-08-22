@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example63/index.html");
+    browser.get("build/docs/examples/example-example63/ratingList.html");
   });
   
 var ps = element.all(by.css('p'));

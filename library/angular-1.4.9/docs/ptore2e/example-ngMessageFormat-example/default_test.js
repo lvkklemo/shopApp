@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-ngMessageFormat-example/index.html");
+    browser.get("build/docs/examples/example-ngMessageFormat-example/ratingList.html");
   });
   
 describe('MessageFormat plural', function() {

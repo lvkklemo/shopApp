@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example26/index.html");
+    browser.get("build/docs/examples/example-example26/ratingList.html");
   });
   
 it('should calculate expression in binding', function() {

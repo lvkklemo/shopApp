@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-NgModelController/index.html");
+    browser.get("build/docs/examples/example-NgModelController/ratingList.html");
   });
   
 it('should data-bind and become invalid', function() {

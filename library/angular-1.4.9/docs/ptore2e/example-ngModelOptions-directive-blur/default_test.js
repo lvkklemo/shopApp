@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-ngModelOptions-directive-blur/index.html");
+    browser.get("build/docs/examples/example-ngModelOptions-directive-blur/ratingList.html");
   });
   
 var model = element(by.binding('user.name'));

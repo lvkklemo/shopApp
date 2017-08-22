@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example41/index.html");
+    browser.get("build/docs/examples/example-example41/ratingList.html");
   });
   
 it('should add Hello to the name', function() {

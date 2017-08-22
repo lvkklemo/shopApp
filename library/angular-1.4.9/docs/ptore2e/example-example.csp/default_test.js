@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example.csp/index.html");
+    browser.get("build/docs/examples/example-example.csp/ratingList.html");
   });
   
 var util, webdriver;

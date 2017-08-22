@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-select-with-non-string-options/index.html");
+    browser.get("build/docs/examples/example-select-with-non-string-options/ratingList.html");
   });
   
 it('should initialize to model', function() {

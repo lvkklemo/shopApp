@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-ngList-directive-newlines/index.html");
+    browser.get("build/docs/examples/example-ngList-directive-newlines/ratingList.html");
   });
   
 it("should split the text by newlines", function() {

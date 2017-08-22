@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-checkbox-input-directive/index.html");
+    browser.get("build/docs/examples/example-checkbox-input-directive/ratingList.html");
   });
   
 it('should change state', function() {

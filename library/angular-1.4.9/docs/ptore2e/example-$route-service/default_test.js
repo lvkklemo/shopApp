@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-$route-service/index.html");
+    browser.get("build/docs/examples/example-$route-service/ratingList.html");
   });
   
 it('should load and compile correct template', function() {

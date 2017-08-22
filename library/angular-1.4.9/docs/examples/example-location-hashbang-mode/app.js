@@ -3,8 +3,8 @@
 angular.module('hashbang-mode', ['fake-browser', 'address-bar'])
 
 // Configure the fakeBrowser. Do not set these values in actual projects.
-.constant('initUrl', 'http://www.example.com/base/index.html#!/path?a=b#h')
-.constant('baseHref', '/base/index.html')
+.constant('initUrl', 'http://www.example.com/base/ratingList.html#!/path?a=b#h')
+.constant('baseHref', '/base/ratingList.html')
 .value('$sniffer', { history: false })
 
 .config(function($locationProvider) {

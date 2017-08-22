@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-email-input-directive/index.html");
+    browser.get("build/docs/examples/example-email-input-directive/ratingList.html");
   });
   
 var text = element(by.binding('email.text'));

@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example84/index.html");
+    browser.get("build/docs/examples/example-example84/ratingList.html");
   });
   
 var templateSelect = element(by.model('template'));

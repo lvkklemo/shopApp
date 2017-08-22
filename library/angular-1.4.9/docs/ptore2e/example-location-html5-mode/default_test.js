@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-location-html5-mode/index.html");
+    browser.get("build/docs/examples/example-location-html5-mode/ratingList.html");
   });
   
 var addressBar = element(by.css("#addressBar")),

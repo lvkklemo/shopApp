@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example93/index.html");
+    browser.get("build/docs/examples/example-example93/ratingList.html");
   });
   
 var colorSpan = element(by.css('span'));

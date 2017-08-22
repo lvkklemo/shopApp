@@ -4,7 +4,7 @@ angular.module('html5-mode', ['fake-browser', 'address-bar'])
 
 // Configure the fakeBrowser. Do not set these values in actual projects.
 .constant('initUrl', 'http://www.example.com/base/path?a=b#h')
-.constant('baseHref', '/base/index.html')
+.constant('baseHref', '/base/ratingList.html')
 .value('$sniffer', { history: true })
 
 .controller("LocationController", function($scope, $location) {
