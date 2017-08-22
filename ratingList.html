@@ -7,17 +7,9 @@
     <title></title>
 </head>
 
+<link rel="stylesheet" href="css/base.css">
+
 <style>
-    a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
-        padding: 0;
-        margin: 0;
-    }
-    li,ul{
-        list-style: none;
-    }
-    body{
-        background-color: #f0f4f6;
-    }
     .nav{
         position: fixed;
         z-index: 100;
@@ -214,7 +206,7 @@
             <ul class="ul">
 
 
-                <li class="ratingitem" ng-repeat="item in data">
+                <li class="ratingitem" ng-repeat="item in data" ng-click="clickITEM(item)">
                     <div class="avatar">
                         <img src="http://img3.imgtn.bdimg.com/it/u=4293673863,3717779803&fm=214&gp=0.jpg" width="28" height="28" alt=""/>
                     </div>
@@ -235,7 +227,7 @@
 </div>
 
 </body>
-<script src="library/vue.js"></script>
+
 <script type="text/javascript" src="library/angular-1.4.9/angular.js"></script>
 <script type="text/javascript">
     var  app = angular.module('ngApp',[]);
@@ -274,7 +266,7 @@
             {
                 name:'宇航你与我',
                 deliverTime:'20分钟到达',
-                text:'刀剑如梦,来去匆匆.你与我天空海阔可会变.真的爱你,风雨化作我的心,是你多么温柔的目光,让我依然望着前方是你多么温柔的目光,让我依然望着前方.',
+                text:null,
                 time:'2016.07.21 18:22'
             },
             {
@@ -337,8 +329,10 @@
                 text:'刀剑如梦,来去匆匆.你与我天空海阔可会变.真的爱你,风雨化作我的心,是你多么温柔的目光,让我依然望着前方是你多么温柔的目光,让我依然望着前方.',
                 time:'2016.07.21 18:22'
             }
-
         ];
+        $scope.clickITEM = function (item) {
+            console.log(item);
+        };
     }]);
 </script>
 </html>

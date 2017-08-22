@@ -1,0 +1,170 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0;
+    margin: 0;
+}
+li,ul{
+    list-style: none;
+}
+body{
+    background-color: #f0f4f6;
+}
+
+.nav{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: white;
+}
+.rating{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 49px;
+    /*bottom: 49px;*/
+    background-color: #f0f4f6;
+    overflow: hidden;
+    padding-bottom: 50px;
+    /*overflow-y:scroll;*/
+    /*overflow-x:auto;*/
+
+}
+.rating .rating-content{
+    /*padding-bottom: 100px;*/
+    height: 100%;
+}
+.rating .rating-content .overview{
+    display: flex;
+    background-color: white;
+    border-top: 1px solid rgba(7,17,27,0.1);
+    margin-bottom: 16px;
+
+}
+.rating .rating-content .overview .overviewleft{
+    flex: 0 0 140px;
+    width: 140px;
+    text-align: center;
+    padding: 16px;
+    position: relative;
+}
+.rating .rating-content .overview .overviewleft .score{
+
+    margin-bottom: 6px;
+    line-height: 20px;
+    font-size: 24px;
+    color: rgb(255,153,0);
+}
+.rating .rating-content .overview .overviewleft .title{
+    margin-bottom: 8px;
+    line-height: 12px;
+    font-size: 12px;
+    color: rgb(7,17,27);
+}
+.rating .rating-content .overview .overviewleft .rank{
+    line-height: 10px;
+    font-size: 10px;
+    color: rgb(147,153,159);
+}
+.rating .rating-content .overview .overviewleft .line{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 1px;
+    width: 1px;
+    background-color: rgba(7,17,27,0.1);
+}
+.rating .rating-content .overview .overview-right{
+    flex:1;
+    padding: 8px 16px 8px 16px;
+    /*text-align: center;*/
+
+}
+.rating .rating-content .overview .overview-right .score-wrapper{
+    margin-bottom: 8px;
+}
+.rating .rating-content .overview .overview-right .score-wrapper .title{
+    font-size: 12px;
+}
+.rating .rating-content .overview .overview-right .score-wrapper .score{
+    font-size: 12px;
+    color: rgb(255,153,0);
+    /*margin-left: 8px;*/
+}
+.rating .rating-content .overview .overview-right .delevery-wrapper{
+
+}
+.rating .rating-content .overview .overview-right .delevery-wrapper .title{
+    color: rgb(7, 17, 27);
+    font-size: 12px;
+}
+.rating .rating-content .overview .overview-right .delevery-wrapper .time{
+    color: rgb(147,153,159);
+    font-size: 12px;
+}
+/*评论列表*/
+.rating .ratingwrapper{
+    background: white;
+    padding: 0 18px;
+}
+
+.rating .ratingwrapper .ratingitem{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(147,153,159);;
+}
+
+.rating .ratingwrapper .ul li:last-child {
+    border-bottom: none;
+    /*background-color: red;*/
+}
+
+.rating .ratingwrapper .ratingitem .avatar{
+    flex: 0 0 28px;
+    width: 28px;
+}
+.rating .ratingwrapper .ratingitem .avatar img{
+    border-radius: 50%;
+}
+.rating .ratingwrapper .ratingitem .content{
+    flex: 1;
+    margin-left: 10px;
+    position: relative;
+}
+.rating .ratingwrapper .ratingitem .content .name{
+    margin-bottom: 4px;
+    line-height: 12px;
+    font-size: 14px;
+    color: rgb(7,17,27);
+}
+.rating .ratingwrapper .ratingitem .content .deliverTime{
+    font-size: 12px;
+    display: inline-block;
+    color: rgb(147,153,159);
+    line-height: 12px;
+    margin-bottom: 8px;
+}
+.rating .ratingwrapper .ratingitem .content .text{
+    line-height: 18px;
+    color: rgb(7,17,27);
+    font-size: 12px;
+}
+.rating .ratingwrapper .ratingitem .content .time{
+    color: rgb(147,153,159);
+    line-height: 12px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: palegoldenrod;
+}
